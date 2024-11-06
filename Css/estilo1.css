@@ -1,0 +1,39 @@
+.abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body{
+    background-color:beige;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.fuente_titulo{
+    font-family: "Abel", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.imagen_header{
+    width: 90%;
+}
+
+.article{
+    background-color: aquamarine;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 45%;
+    margin: 10px, 10px, 10px, 10px;
+    padding: 9px;
+    
+}
+
+.imagen_article2{
+    width: 80%;
+}
