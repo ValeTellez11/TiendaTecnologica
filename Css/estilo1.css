@@ -1,39 +1,87 @@
-.abel-regular {
-    font-family: "Abel", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+<!DOCTYPE html>
+<html lang="es">
 
-body{
-    background-color:beige;
-    font-family: "Abel", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
+<head>
+    <meta charset="UTF-8">
+    <link href="Css/estilo1.css" rel="stylesheet">
+    <script src="JavaScript/Menu.Js"></script>
+    <title class="fuente_titulo">Tienda Tecnologica</title>
+</head>
+</head>
+
+
+
+<body>
+    <header>
+        <h1>Tienda Virtual de Tecnología</h1>
+        <nav>
+            <form>
+                <input type="text" placeholder="Buscar">
+            </form>
+            <ul>
+                <li><a href="Promociones.html">Promociones</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Categorías</a>
+                    <div class="dropdown-content">
+                        <a href="Accesorios.HTML">Accesorios</a>
+                        <a href="Componentes.html">Componentes</a>
+                        <a href="Portátiles.html">Portátiles</a>
+                        <a href="Toners.html">Toners</a>
+                        <a href="Cables.html">Cables</a>
+                    </div>
+                </li>
+                <li><a href="Login.html"><img src="Imagenes/Login.png" alt="Login"></a></li>
+                <li><a href="Carrito.html"><img src="Imagenes/Carrito.png" alt="Carrito"></a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+CSS
+
+
+
+/*Estilos para el cuerpo del HTML*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos para el encabezado de la pagina dentro del body*/
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/*Navegador de la pagina home-promociones...,*/
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 
 }
-.fuente_titulo{
-    font-family: "Abel", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 30px;
+
+nav ul li {
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: #91d8e5;
+    border-radius: 5px;
 }
 
-.imagen_header{
-    width: 90%;
-}
-
-.article{
-    background-color: aquamarine;
-    font-family: "Abel", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    width: 45%;
-    margin: 10px, 10px, 10px, 10px;
-    padding: 9px;
-    
-}
-
-.imagen_article2{
-    width: 80%;
+nav ul li img {
+    width: 20px;
+    height: 20px;
 }
