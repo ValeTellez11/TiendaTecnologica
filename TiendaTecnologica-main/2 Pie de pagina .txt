@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8">
+    <link href="Css/estilo1.css" rel="stylesheet">
+    <script src="JavaScript/Menu.Js"></script>
+    <title class="fuente_titulo">Tienda Tecnologica</title>
+</head>
+</head>
+
+
+
+<body>
+    <header>
+        <h1>Tienda Virtual de Tecnología</h1>
+        <nav>
+            <form>
+                <input type="text" placeholder="Buscar">
+            </form>
+            <ul>
+                <li><a href="Promociones.html">Promociones</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Categorías</a>
+                    <div class="dropdown-content">
+                        <a href="Accesorios.HTML">Accesorios</a>
+                        <a href="Componentes.html">Componentes</a>
+                        <a href="Portátiles.html">Portátiles</a>
+                        <a href="Toners.html">Toners</a>
+                        <a href="Cables.html">Cables</a>
+                    </div>
+                </li>
+                <li><a href="Login.html"><img src="Imagenes/Login.png" alt="Login"></a></li>
+                <li><a href="Carrito.html"><img src="Imagenes/Carrito.png" alt="Carrito"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <footer>
+        <h3>Siguenos</h3>
+        <div class="social-media">
+            <a href="#"><img src="Imagenes/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="Imagenes/X.png" alt="Twitter"></a>
+            <a href="#"><img src="Imagenes/Instagram.png" alt="Instagram"></a>
+        </div>
+        <h3>Visitanos</h3>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d789.0571215933934!2d-74.05790781689407!3d4.66551309607571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b005b12f0cf%3A0xa6140d13110a0c2c!2sTauret%20mallow!5e0!3m2!1ses-419!2sco!4v1730987524044!5m2!1ses-419!2sco"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+Css
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media {
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 50px;
+    height: 40px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 5px;
+}
